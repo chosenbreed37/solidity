@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "countEventNumbers",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "input",
+						"type": "uint256"
+					}
+				],
+				"name": "isInShortList",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"looping-practice.sol": "LoopingPractice"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"looping-practice.sol": {
+			"keccak256": "0x9fcae1ef54a06c05a1da67e4338cf76ff3a7f2546682b615321ad9ad4c3dbba2",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://0c3a01fa546e15d4e4c31ed560ebd89665098e7b7ccc43f97257f778c5c995d0",
+				"dweb:/ipfs/QmS7Dd359PKugPo7sPmHr7KJ8KuFisfC7NW5VZP6gnz1FY"
+			]
+		}
+	},
+	"version": 1
+}

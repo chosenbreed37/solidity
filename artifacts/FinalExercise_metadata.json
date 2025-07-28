@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "finalize",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"finaal-exercise.sol": "FinalExercise"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"finaal-exercise.sol": {
+			"keccak256": "0xdf4835ac07b19d59c33440aae4f3c4a5e6470a6f40b4293c9c023d89ba013fa7",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://fbae050472077d09fd61c0f43e354d5f7b349aaeca1c2ceb4394a42ee9edd4a5",
+				"dweb:/ipfs/QmVDyED9Ri5VNAc1Bw3khn5vHcKNz7wgcmzkWjAx9hfgpw"
+			]
+		}
+	},
+	"version": 1
+}

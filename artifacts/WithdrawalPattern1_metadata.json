@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "returnFunds",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"03_01_withdrawal_patterns.sol": "WithdrawalPattern1"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"03_01_withdrawal_patterns.sol": {
+			"keccak256": "0x7122b3ae1334d6c798ff5b4c0e1ca913c2e2246f683738035bbd2519b07214e3",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bcff0bb425d1468007ebc2761e9d545300c8d47f405c4c4639b8ead59b29282c",
+				"dweb:/ipfs/QmX3KjfYWpTZasAvot6fFufcVbeuPfZETZhua3uhbbbTtM"
+			]
+		}
+	},
+	"version": 1
+}

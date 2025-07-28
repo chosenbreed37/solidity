@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getResults",
+				"outputs": [
+					{
+						"internalType": "enum Elections.Candidate",
+						"name": "",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum Elections.Candidate",
+						"name": "candidate",
+						"type": "uint8"
+					}
+				],
+				"name": "vote",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"elections.sol": "Elections"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"elections.sol": {
+			"keccak256": "0x0b4d4d89076138be6790887ff6fc7341095aff5c76735399ef1601a77714e7e6",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://377887e1f2c0a1d5501abd9d32affb1fa5bfa8bf94a35f4b56d8bb587e694dc4",
+				"dweb:/ipfs/QmabJPVJZMachRSHu9kEZ5o1NG2JybkUR2kZCHquwwPheo"
+			]
+		}
+	},
+	"version": 1
+}
